@@ -1,7 +1,15 @@
-import { Box, Heading, Image, Text, View } from "native-base";
+import {
+  Box,
+  Heading,
+  Image,
+  Input,
+  Pressable,
+  Text,
+  VStack,
+} from "native-base";
 import React from "react";
 import Colors from "../color";
-import { MaterialIcons } from "@expo/vector-icons";
+import { MaterialIcons, Ionicons } from "@expo/vector-icons";
 
 function LoginScreen() {
   return (
@@ -24,6 +32,7 @@ function LoginScreen() {
       >
         <Heading>LOGIN</Heading>
         <VStack space={5} pt="6">
+          {/* EMAIL */}
           <Input
             InputLeftElement={
               <MaterialIcons name="email" size={20} color={Colors.main} />
@@ -35,7 +44,34 @@ function LoginScreen() {
             color={Colors.main}
             borderBottomColor={Colors.underline}
           />
+          {/* PASSWORD */}
+          <Input
+            InputLeftElement={
+              <Ionicons name="eye" size={20} color={Colors.main} />
+            }
+            variant="underlined"
+            placeholder="*********"
+            w="70%"
+            type="password"
+            pl={2}
+            color={Colors.main}
+            borderBottomColor={Colors.underline}
+          />
         </VStack>
+        <Button
+          _pressed={{
+            bg: Colors.main,
+          }}
+          my={30}
+          w="40%"
+          rounded={50}
+          bg={Colors.main}
+        >
+          LOGIN
+        </Button>
+        <Pressable mt={4}>
+          <Text color={Colors.deepestGray}>SIGN UP</Text>
+        </Pressable>
       </Box>
     </Box>
   );
