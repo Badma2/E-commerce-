@@ -49,9 +49,9 @@ const products = [
   },
   {
     _id: "5",
-    name: "Sesame Street Unisex-Child ELMO Puppet Slipper",
+    name: "Lace Walking Shoes For Boys & Girls  (Pink)",
     image:
-      "http://res.cloudinary.com/zpune/image/upload/v1644396419/random/10_kalats.png",
+      "http://res.cloudinary.com/zpune/image/upload/v1644396422/random/5_t573vi.png",
     description:
       "Lorem Ipsut is simply dummy text of the printing and typesetting industry.",
     price: 929,
@@ -63,7 +63,7 @@ const products = [
     _id: "6",
     name: "Women Red Heels Sandal",
     image:
-      "http://res.cloudinary.com/zpune/image/upload/v1644396419/random/10_kalats.png",
+      "http://res.cloudinary.com/zpune/image/upload/v1644396419/random/6_rowzeu.png",
     description:
       "Lorem Ipsut is simply dummy text of the printing and typesetting industry.",
     price: 29,
