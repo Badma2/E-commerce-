@@ -3,7 +3,7 @@ const products = [
     _id: "1",
     name: "Velcro Ballerinas For Girl  (Pink)",
     image:
-      "http://res.cloudinary.com/zpune/image/upload/v1644396418/random/11_dz0un.png",
+      "http://res.cloudinary.com/zpune/image/upload/v1644396418/random/11_dzj0un.png",
     description:
       "Lorem Ipsut is simply dummy text of the printing and typesetting industry.",
     price: 89,
@@ -27,7 +27,7 @@ const products = [
     _id: "3",
     name: "Sesame Street Unisex-Child ELMO Puppet Slipper",
     image:
-      "http://res.cloudinary.com/zpune/image/upload/v1644396419/random/10_kalats.png",
+      "http://res.cloudinary.com/zpune/image/upload/v1644396427/random/7_mgja42.png",
     description:
       "Lorem Ipsut is simply dummy text of the printing and typesetting industry.",
     price: 929,
@@ -39,7 +39,7 @@ const products = [
     _id: "4",
     name: "Lace Casual Boots For Boys & Girls  (Tan)",
     image:
-      "http://res.cloudinary.com/zpune/image/upload/v1644396427/random/10_kalats.png",
+      "https://rukminim1.flixcart.com/image/832/832/xif0q/kids-shoe/h/h/p/-original-imagg7hzjhw5jszz.jpeg?q=70",
     description:
       "Lorem Ipsut is simply dummy text of the printing and typesetting industry.",
     price: 399,
