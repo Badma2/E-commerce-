@@ -45,7 +45,7 @@ const products = [
     price: 399,
     countInStock: 0,
     rating: 3.5,
-    numReviews: 3,
+    numReviews: 9,
   },
   {
     _id: "5",
@@ -54,8 +54,8 @@ const products = [
       "http://res.cloudinary.com/zpune/image/upload/v1644396422/random/5_t573vi.png",
     description:
       "Lorem Ipsut is simply dummy text of the printing and typesetting industry.",
-    price: 929,
-    countInStock: 0,
+    price: 49,
+    countInStock: 7,
     rating: 2,
     numReviews: 2,
   },
@@ -71,4 +71,6 @@ const products = [
     rating: 0,
     numReviews: 0,
   },
+
+  // delete
 ];

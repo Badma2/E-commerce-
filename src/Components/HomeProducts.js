@@ -10,10 +10,11 @@ import {
 import React from "react";
 import products from "../data/Products";
 import Colors from "../color";
+import Rating from "./Rating";
 
 function HomeProducts() {
   return (
-    <ScrollView flex={1}>
+    <ScrollView flex={1} showsVerticalScrollIndicator={false}>
       <Flex
         flexWrap="wrap"
         direction="row"
@@ -46,6 +47,7 @@ function HomeProducts() {
               <Text fontSize={10} mt={1} isTruncated w="full">
                 {product.name}
               </Text>
+              <Rating value={product.rating} />
             </Box>
           </Pressable>
         ))}
