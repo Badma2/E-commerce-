@@ -1,4 +1,13 @@
-import { Box, Heading, HStack, Image, ScrollView, View } from "native-base";
+import {
+  Box,
+  Heading,
+  HStack,
+  Image,
+  ScrollView,
+  Spacer,
+  Text,
+  View,
+} from "native-base";
 import React from "react";
 import NumericInput from "react-native-numeric-input";
 import Colors from "../color";
@@ -32,10 +41,20 @@ function SingleProductScreen() {
             borderColor={Colors.deepGray}
             rounded
             textColor={Colors.black}
-            iconStyle={{ color: Colors.white}}
-            rightButtonBackgroundColor={}
+            iconStyle={{ color: Colors.white }}
+            rightButtonBackgroundColor={Colors.main}
+            leftButtonBackgroundColor={Colors.main}
           />
+          <Spacer />
+          <Heading bold color={Colors.black} fontSize={19}>
+            $400
+          </Heading>
         </HStack>
+        <Text lineHeight={24} fontSize={12}>
+          NativeBase Icons was designed to make integration of icons in
+          nativebase projects easier. It is unified library which export icons
+          and fonts for all the native and web platforms.
+        </Text>
       </ScrollView>
     </Box>
   );
