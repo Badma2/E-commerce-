@@ -53,7 +53,12 @@ function SingleProductScreen() {
         <Text lineHeight={24} fontSize={12}>
           NativeBase Icons was designed to make integration of icons in
           nativebase projects easier. It is unified library which export icons
-          and fonts for all the native and web platforms.
+          and fonts for all the native and web platforms.NativeBase VS Code
+          Extensions NativeBase VS Code Extensions are specifical designed to
+          quicken your development process using NativeBase 3.0. NativeBase
+          snippets are shorthand for commoly used NativeBase components. All
+          snippets start with the prefix nb- and are followed by the name of the
+          desired component.
         </Text>
       </ScrollView>
     </Box>
